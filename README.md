@@ -1,6 +1,6 @@
 # Deep Learning with PyTorch
 
-This repository contains notebooks for learning and understanding deep learning concepts using PyTorch.
+This repository contains notebooks for my learning and understanding deep learning concepts using PyTorch.
 
 ## Notebooks
 
