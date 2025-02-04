@@ -62,17 +62,3 @@ Feel free to fork this repository and submit **pull requests** for improvements.
 This project is licensed under the **MIT License**.
 
 ---
-
-### **🚀 Happy Learning!**
-```
-
----
-
-### **📌 Next Steps**
-1. **Replace your current `README.md` with this updated version.**
-2. **Stage and commit the changes:**
-   ```sh
-   git add README.md
-   git commit -m "Updated README with setup instructions and pre-commit details"
-   git push origin main
-   ```
