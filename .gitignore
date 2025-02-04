@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and output files
+*.log
+*.out
+*.err
+
+# macOS system files
+.DS_Store
+
+# Package management files
+*.lock
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml.lock
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing and coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.py,cover
+hypothesis/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff cache
+.ruff_cache/
+
+# Pre-commit hooks
+.pre-commit-config.yaml
+.pre-commit-cache/
+
+# AWS-related files
+.aws/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swn

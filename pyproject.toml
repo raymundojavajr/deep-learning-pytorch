@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deep-learning-pytorch"
+version = "0.1.0"
+description = "A deep learning project using PyTorch"
+authors = [{ name = "Raymundo Java Jr", email = "raymundojavajr@gmail.com" }]
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "ruff",
+    "pre-commit"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+fixable = ["ALL"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+known-first-party = ["deep-learning-pytorch"]
