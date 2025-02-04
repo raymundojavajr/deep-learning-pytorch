@@ -70,3 +70,7 @@ dmypy.json
 *.swp
 *.swo
 *.swn
+
+# Ignore package metadata
+deep_learning_pytorch.egg-info/
+uv.lock
